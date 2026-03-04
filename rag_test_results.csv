@@ -1,0 +1,74 @@
+query,status,latency,sources,answer
+What are the core courses for the School of Computing and Data Sciences?,✅ Success,4.47,"school_computing_datascience.pdf, school_media.pdf, school-arts_sciences.pdf, school_artificial_intelligence.pdf","The core courses for the School of Computing and Data Sciences include [school_computing_datascience.pdf | Dept: general]:
+* Database Management and SQL
+* Computer Networks
+* Cryptography
+* Cybersecurity
+* Computer Vision
+* Advanced Programming
+* Embedded Systems and Robotics
+* Artificial Intelligence
+* Internet of Things
+* Complexity Theory
+* Numerical Methods
+* Computational Geometry
+
+Additionally, the Interdisciplinary Core Courses (28 Credits) are:
+* Critical Thinking
+* Environment and Sustainability
+* Writing and Communication
+* Science, Technology, and Society
+* Frontiers
+* Global Challenges
+* Artistic Appreciation [school_computing_datascience.pdf | Dept: general]"
+Tell me about the curriculum for the School of Law.,✅ Success,3.07,school_law.pdf,"The curriculum for the School of Law at Sai University is designed for scholarly excellence, with a solid foundation in core legal principles and social sciences [school_law.pdf | Dept: general]. The course structure includes:
+
+* 22 courses towards compulsory courses in law [school_law.pdf | Dept: general]
+* 16 courses towards compulsory courses in social science & language [school_law.pdf | Dept: general]
+* 8 courses towards specialization courses, which include:
+  + Constitutional Law
+  + International law
+  + Business Law
+  + Technology Law and Policy [school_law.pdf | Dept: general]
+* 6 courses towards optional courses (electives), which include:
+  + Interpretation of Statutes
+  + Human Rights Law
+  + Cyber Laws
+  + Research Methods
+  + Indirect Tax
+  + Energy Law
+  + Investment Law
+  + Technology and the Law
+  + Regulatory Law
+  + International Trade Law [school_law.pdf | Dept: general]
+* 4 courses towards clinics, which include:
+  + Moot Court
+  + Alternate Dispute Resolution
+  + Drafting, Pleading and Conveyancing
+  + Professional Ethics and Professional Accounting System [school_law.pdf | Dept: general]
+
+The curriculum is designed to empower students to become not just legal experts, but leaders at the intersection of law and technology [school_law.pdf | Dept: general]. It also offers specialized courses in Science, Technology, and Society (STS) to provide interdisciplinary insights into how scientific advancements and technological innovations shape societal values, legal systems, and ethical considerations [school_law.pdf | Dept: general]."
+What major courses are offered in School of Business this semester?,✅ Success,2.98,"school_business.pdf, school_media.pdf","The context provided does not specifically mention the major courses offered in the School of Business for this semester [school_business.pdf | Dept: general]. However, it does mention that the BBA (Hons.) program provides students with a strong foundation in business and management education, and that students learn core business disciplines [school_business.pdf | Dept: general]. 
+
+Some of the areas where career opportunities are available include:
+* Marketing
+* Finance
+* Human Resource Management
+* Operations
+* Business Management
+* Entrepreneurship [school_business.pdf | Dept: general].
+
+For a detailed and up-to-date list of major courses offered in the School of Business this semester, I recommend checking the university's official website or contacting the School of Business directly."
+What is the minimum CGPA required to graduate?,⚠️ No Sources,2.11,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+How is the SGPA calculated at SaiU?,⚠️ No Sources,2.13,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+What is the attendance policy for final exams?,✅ Success,2.45,Student_Hand_Book.pdf,"The attendance policy for final exams requires a minimum of 75% attendance for examination eligibility, with a provision for condonation up to 10% on genuine grounds [Student_Hand_Book.pdf]."
+Are there any merit-based scholarships available?,⚠️ No Sources,2.13,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+What is the deadline for scholarship renewal?,⚠️ No Sources,2.1,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+What is the menu in the university cafeteria today?,✅ Success,2.61,Student_Hand_Book.pdf,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+How do I apply for a parking permit?,⚠️ No Sources,2.06,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+How many credits do I need for Law and does it affect my scholarship?,⚠️ No Sources,2.18,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
+How many total credits are needed to graduate from school of computing and Data Science?,✅ Success,2.69,"school_computing_datascience.pdf, school_business.pdf, school-arts_sciences.pdf","According to the school_computing_datascience.pdf document, the total credits needed to graduate from the School of Computing and Data Science is 160 credits [school_computing_datascience.pdf]. This is broken down into:
+* 80 Credits – Major Courses
+* 28 Credits – Interdisciplinary Core Courses
+* 24 Credits – Elective courses towards minors
+* 28 Credits – Additional Electives / Internship / Online Courses [school_computing_datascience.pdf]."

@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model cache
+model_cache/
+*.safetensors
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Large binaries
+*.dll
+*.pyd
