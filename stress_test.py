@@ -5,27 +5,14 @@ import time
 # Configuration
 API_URL = "http://localhost:8000/chat"
 TEST_CASES = [
-    # 1. School-Specific (Checks if School Detection works)
-    "What are the core courses for the School of Computing and Data Sciences?",
-    "Tell me about the curriculum for the School of Law.",
-    "What major courses are offered in School of Business this semester?",
-    
-    # 2. Policy & Grading (Checks Intent Detection)
-    "What is the minimum CGPA required to graduate?",
-    "How is the SGPA calculated at SaiU?",
-    "What is the attendance policy for final exams?",
-    
-    # 3. Scholarships (Checks Document Classification)
-    "Are there any merit-based scholarships available?",
-    "What is the deadline for scholarship renewal?",
-    
-    # 4. Out-of-Context (Checks the Fallback "Registrar" message)
-    "What is the menu in the university cafeteria today?",
-    "How do I apply for a parking permit?",
-    
-    # 5. Intent Overlap
-    "How many credits do I need for Law and does it affect my scholarship?",
-    "How many total credits are needed to graduate from school of computing and Data Science?"
+    "Which faculty is teaching Programming in Python?",
+    "What is the deadline to add or drop a course this semester?",
+    "What CGPA do I need to maintain if I have a 50% scholarship?",
+    "What courses are offered in SCDS this semester?",
+    "what courses does ujjwal teach this semester?",
+    "What are the holidays in 2026?",
+    "Can I audit a course this semester?",
+    "What is the fee structure for the BBA program?",
 ]
 
 def run_tests():
@@ -40,16 +27,34 @@ def run_tests():
             response = requests.post(API_URL, json={"question": query})
             data = response.json()
             latency = round(time.time() - start_time, 2)
-            
+
+            if "detail" in data:
+                results.append({
+                    "query": query,
+                    "answer": f"API ERROR: {data['detail']}",
+                    "sources": "",
+                    "latency": latency,
+                    "status": "❌ API Error"
+                })
+                continue
+
             results.append({
                 "query": query,
-                "answer": data["answer"],
-                "sources": ", ".join(data["sources"]),
+                "answer": data.get("answer", "No answer"),
+                "sources": ", ".join(data.get("sources", [])),
                 "latency": latency,
-                "status": "✅ Success" if len(data["sources"]) > 0 else "⚠️ No Sources"
+                "status": "✅ Success" if data.get("sources") else "⚠️ No Sources"
             })
         except Exception as e:
-            results.append({"query": query, "answer": str(e), "sources": "", "status": "❌ Failed"})
+            results.append({
+                "query": query,
+                "answer": str(e),
+                "sources": "",
+                "latency": round(time.time() - start_time, 2),
+                "status": "❌ Failed"
+            })
+
+        time.sleep(15)  # ← AFTER request, outside try/except, gap between queries
 
     # Save to CSV
     with open("rag_test_results.csv", "w", newline="", encoding="utf-8") as f:

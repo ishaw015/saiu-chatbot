@@ -4,6 +4,7 @@ from pdf2image import convert_from_path
 from typing import List, Any
 import re
 
+
 from langchain_community.document_loaders import (
     PyMuPDFLoader,
     CSVLoader,
@@ -21,22 +22,23 @@ def classify_document(filename: str) -> str:
     if "catalog" in name or "catalogue" in name or "semester" in name:
         return "semester_catalog"
     elif "school_" in name or "school-" in name:
-        return "school_overview"
-    elif "policy" in name:
+        return "school_overview"          # ← already existed, covers all school files
+    elif "policy" in name or "it_policy" in name or "library" in name or "code_of_conduct" in name:
         return "policy"
     elif "calendar" in name:
-        return "academic_calendar"
+        return "calendar"
     elif "scholarship" in name:
         return "scholarship"
     elif "grade" in name or "cgpa" in name:
         return "grading"
     elif "timetable" in name:
         return "timetable"
-    elif "handbook" in name:
+    elif "handbook" in name or "hand_book" in name:
         return "student_handbook"
+    elif "holiday" in name or "holidays" in name:
+        return "calendar"
     else:
         return "general"
-
 
 # ─────────────────────────────────────────────
 # OCR Loader

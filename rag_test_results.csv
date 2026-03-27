@@ -1,74 +1,40 @@
 query,status,latency,sources,answer
-What are the core courses for the School of Computing and Data Sciences?,✅ Success,4.47,"school_computing_datascience.pdf, school_media.pdf, school-arts_sciences.pdf, school_artificial_intelligence.pdf","The core courses for the School of Computing and Data Sciences include [school_computing_datascience.pdf | Dept: general]:
-* Database Management and SQL
-* Computer Networks
-* Cryptography
-* Cybersecurity
-* Computer Vision
-* Advanced Programming
-* Embedded Systems and Robotics
-* Artificial Intelligence
-* Internet of Things
-* Complexity Theory
-* Numerical Methods
-* Computational Geometry
+Which faculty is teaching Programming in Python?,✅ Success,3.89,Course Catalogue_25-26_Sem2.docx,"The faculty teaching Programming in Python are Ujjwal, Arjun, David, and Vivekanand [Source: Course Catalogue_25-26_Sem2.docx]."
+What is the deadline to add or drop a course this semester?,✅ Success,3.2,Course Catalogue_25-26_Sem2.docx,"The deadline for adding or dropping courses is two weeks from the first day of instruction [Source: Course Catalogue_25-26_Sem2.docx | Dept: semester_catalog]. Additionally, it is mentioned that after the add/drop deadline (01 February 2026), students will not be allowed to add or drop courses [Source: Course Catalogue_25-26_Sem2.docx | Dept: semester_catalog]."
+What CGPA do I need to maintain if I have a 50% scholarship?,✅ Success,2.66,"SaiU_Scholarship.pdf, grades.pdf, school_law.pdf","To maintain a 50% scholarship, you need to maintain a minimum Cumulative Grade Point Average (CGPA) of 8 [Source: SaiU_Scholarship.pdf | Dept: scholarship]."
+What courses are offered in SCDS this semester?,✅ Success,3.52,Course Catalogue_25-26_Sem2.docx,"Based on the provided course catalogue, the following courses are mentioned:
 
-Additionally, the Interdisciplinary Core Courses (28 Credits) are:
-* Critical Thinking
-* Environment and Sustainability
-* Writing and Communication
-* Science, Technology, and Society
-* Frontiers
-* Global Challenges
-* Artistic Appreciation [school_computing_datascience.pdf | Dept: general]"
-Tell me about the curriculum for the School of Law.,✅ Success,3.07,school_law.pdf,"The curriculum for the School of Law at Sai University is designed for scholarly excellence, with a solid foundation in core legal principles and social sciences [school_law.pdf | Dept: general]. The course structure includes:
+* Database Management Systems (CDS104) [Source: Course Catalogue_25-26_Sem2.docx]
+* Cryptography (CS211) [Source: Course Catalogue_25-26_Sem2.docx]
+* Machine Learning Systems Design (CDS404) [Source: Course Catalogue_25-26_Sem2.docx]
+* Python and Data Structures Lab (CS106L) [Source: Course Catalogue_25-26_Sem2.docx]
+* Reinforcement Learning (CDS302) [Source: Course Catalogue_25-26_Sem2.docx]
 
-* 22 courses towards compulsory courses in law [school_law.pdf | Dept: general]
-* 16 courses towards compulsory courses in social science & language [school_law.pdf | Dept: general]
-* 8 courses towards specialization courses, which include:
-  + Constitutional Law
-  + International law
-  + Business Law
-  + Technology Law and Policy [school_law.pdf | Dept: general]
-* 6 courses towards optional courses (electives), which include:
-  + Interpretation of Statutes
-  + Human Rights Law
-  + Cyber Laws
-  + Research Methods
-  + Indirect Tax
-  + Energy Law
-  + Investment Law
-  + Technology and the Law
-  + Regulatory Law
-  + International Trade Law [school_law.pdf | Dept: general]
-* 4 courses towards clinics, which include:
-  + Moot Court
-  + Alternate Dispute Resolution
-  + Drafting, Pleading and Conveyancing
-  + Professional Ethics and Professional Accounting System [school_law.pdf | Dept: general]
+However, the catalogue does not explicitly state which courses are offered in SCDS this semester. To determine the courses offered in SCDS, we need to look for courses with the ""SCDS"" prefix or courses that are specifically mentioned as being part of the SCDS program.
 
-The curriculum is designed to empower students to become not just legal experts, but leaders at the intersection of law and technology [school_law.pdf | Dept: general]. It also offers specialized courses in Science, Technology, and Society (STS) to provide interdisciplinary insights into how scientific advancements and technological innovations shape societal values, legal systems, and ethical considerations [school_law.pdf | Dept: general]."
-What major courses are offered in School of Business this semester?,✅ Success,2.98,"school_business.pdf, school_media.pdf","The context provided does not specifically mention the major courses offered in the School of Business for this semester [school_business.pdf | Dept: general]. However, it does mention that the BBA (Hons.) program provides students with a strong foundation in business and management education, and that students learn core business disciplines [school_business.pdf | Dept: general]. 
+Since the catalogue does not provide a clear distinction between courses offered in different departments, I will list the courses that are mentioned:
 
-Some of the areas where career opportunities are available include:
-* Marketing
-* Finance
-* Human Resource Management
-* Operations
-* Business Management
-* Entrepreneurship [school_business.pdf | Dept: general].
+* CDS104: Database Management Systems
+* CDS302: Reinforcement Learning
+* CDS404: Machine Learning Systems Design
+* CS106L: Python and Data Structures Lab
+* CS211: Cryptography
 
-For a detailed and up-to-date list of major courses offered in the School of Business this semester, I recommend checking the university's official website or contacting the School of Business directly."
-What is the minimum CGPA required to graduate?,⚠️ No Sources,2.11,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-How is the SGPA calculated at SaiU?,⚠️ No Sources,2.13,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-What is the attendance policy for final exams?,✅ Success,2.45,Student_Hand_Book.pdf,"The attendance policy for final exams requires a minimum of 75% attendance for examination eligibility, with a provision for condonation up to 10% on genuine grounds [Student_Hand_Book.pdf]."
-Are there any merit-based scholarships available?,⚠️ No Sources,2.13,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-What is the deadline for scholarship renewal?,⚠️ No Sources,2.1,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-What is the menu in the university cafeteria today?,✅ Success,2.61,Student_Hand_Book.pdf,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-How do I apply for a parking permit?,⚠️ No Sources,2.06,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-How many credits do I need for Law and does it affect my scholarship?,⚠️ No Sources,2.18,,"I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
-How many total credits are needed to graduate from school of computing and Data Science?,✅ Success,2.69,"school_computing_datascience.pdf, school_business.pdf, school-arts_sciences.pdf","According to the school_computing_datascience.pdf document, the total credits needed to graduate from the School of Computing and Data Science is 160 credits [school_computing_datascience.pdf]. This is broken down into:
-* 80 Credits – Major Courses
-* 28 Credits – Interdisciplinary Core Courses
-* 24 Credits – Elective courses towards minors
-* 28 Credits – Additional Electives / Internship / Online Courses [school_computing_datascience.pdf]."
+Please note that the catalogue is subject to change, and it is recommended to consult with faculty or the Office of Undergraduate Education for the most up-to-date information on courses offered in SCDS this semester [Source: Course Catalogue_25-26_Sem2.docx]."
+what courses does ujjwal teach this semester?,✅ Success,3.1,Course Catalogue_25-26_Sem2.docx,"According to the course catalogue, Ujjwal teaches the following course this semester:
+* Programming in Python (CS105) [Source: Course Catalogue_25-26_Sem2.docx]"
+What are the holidays in 2026?,✅ Success,3.18,"List of Holidays 2026.docx, Academic Calendar_25-26.docx","The holidays in 2026 are as follows:
+* New Year: 01-01-2026, Thu [List of Holidays 2026.docx]
+* Pongal: 15-01-2026, Thu [List of Holidays 2026.docx]
+* Republic Day: 26-01-2026, Mon [List of Holidays 2026.docx]
+* Telugu New Year: 19-03-2026, Thu [List of Holidays 2026.docx]
+* Ramzan: 21-03-2026, Sat [List of Holidays 2026.docx]
+* Tamil New Year's Day: 14-04-2026, Tue [List of Holidays 2026.docx]
+* May Day: 01-05-2026, Fri [List of Holidays 2026.docx]
+* Gandhi Jayanthi: 02-10-2026, Fri [List of Holidays 2026.docx]
+* Ayutha Pooja: 19-10-2026, Mon [List of Holidays 2026.docx]
+* Deepavali: 08-11-2026, Sun and 09-11-2026, Mon [List of Holidays 2026.docx]
+* Christmas: 25-12-2026, Fri [List of Holidays 2026.docx]
+Note: There is also a mention of Independence Day on the 15th, but the month is not specified [List of Holidays 2026.docx]."
+Can I audit a course this semester?,✅ Success,3.91,Course Catalogue_25-26_Sem2.docx,"Yes, you can audit a course this semester. According to the Course Catalogue, any undergraduate student may audit up to one course per semester [Source: Course Catalogue_25-26_Sem2.docx | Dept: semester_catalog]. However, you will need to obtain permission from the faculty instructor before the end of the add/drop period, and the terms of the audit will be determined by the instructor [Source: Course Catalogue_25-26_Sem2.docx | Dept: semester_catalog]. Additionally, please note that you will be required to maintain a minimum of 75% attendance for the course to appear on your transcript [Source: Course Catalogue_25-26_Sem2.docx | Dept: semester_catalog]."
+What is the fee structure for the BBA program?,✅ Success,2.55,"school_business.pdf, Student_Hand_Book.pdf, Course Catalogue_25-26_Sem2.docx","I'm sorry, I don't have that specific information in my current database. Please contact the Registrar's Office at registrar@saiuniversity.edu.in for official clarification."
