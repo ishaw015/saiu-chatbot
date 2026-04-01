@@ -20,7 +20,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://famous-banoffee-110f75.netlify.app"],
+    allow_origins=["https://famous-banoffee-110f75.netlify.app", "https://fanciful-entremet-b10e21.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
