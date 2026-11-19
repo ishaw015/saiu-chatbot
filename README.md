@@ -2,10 +2,6 @@
 
 A RAG-based (Retrieval-Augmented Generation) conversational chatbot built for **Sai University** students and faculty. Ask it anything about courses, faculty, policies, scholarships, deadlines, and more — and get instant, accurate answers drawn from official university documents.
 
-🔗 **Live Demo**: [https://famous-banoffee-110f75.netlify.app](https://famous-banoffee-110f75.netlify.app)  
-📦 **GitHub**: [https://github.com/ishaw015/saiu-chatbot](https://github.com/ishaw015/saiu-chatbot)
-
----
 
 ## ✨ Features
 
